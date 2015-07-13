@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".XZHL0740_Activity" 
+    android:orientation="vertical">
+<RelativeLayout 
+    android:id="@+id/caigouHeader"
+    android:layout_width="fill_parent"
+    android:layout_height="60.0dp"
+    android:background="#41a9ef" >
+    <Button
+        android:id="@+id/goToMain4"
+        android:layout_width="35.0dp"
+        android:layout_height="35.0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arrow"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:gravity="center"
+        android:text="今日采购汇总"
+        android:textColor="#FFFFFF"
+        android:textSize="20.0sp"
+        android:textStyle="bold" />
+<Button
+        android:id="@+id/shuaxinjinricaigou"
+         android:layout_width="35.0dp"
+        android:layout_height="35.0dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/refurbish"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</RelativeLayout>
+   <ListView 
+    android:id="@+id/caigouListView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:dividerHeight="1dp"
+    android:divider="#FF6d6c6c"
+    /> 
+</LinearLayout>

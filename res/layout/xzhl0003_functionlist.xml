@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<!-- 引用功能表的大标题 -->
+    <include 
+        layout="@layout/xzhl0003_toolbar_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical" >
+<!-- 通知与消息的显示 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/infotext_0003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/listitem"
+                    android:textSize="16sp" />
+
+                <com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView
+                    android:id="@+id/infogridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:horizontalSpacing="4dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:scrollbarStyle="insideOverlay"
+                    android:verticalSpacing="4dp" >
+                </com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView>
+            </LinearLayout>
+<!-- 通知管理的显示 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+
+                <TextView
+                    android:id="@+id/managementtext_0003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView
+                    android:id="@+id/managementgridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:horizontalSpacing="4dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:scrollbarStyle="insideOverlay"
+                    android:verticalSpacing="4dp" >
+                </com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView>
+            </LinearLayout>
+<!-- 营销的显示 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+
+                <TextView
+                    android:id="@+id/marketingtext_0003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/listitem"
+                    android:textSize="16sp" />
+
+                <com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView
+                    android:id="@+id/marketinggridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:horizontalSpacing="4dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:scrollbarStyle="insideOverlay"
+                    android:verticalSpacing="4dp" >
+                </com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView>
+            </LinearLayout>
+<!-- 设备管理的显示 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+
+                <TextView
+                    android:id="@+id/equipenttext_0003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/listitem"
+                    android:textSize="16sp" />
+
+                <com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView
+                    android:id="@+id/equipentgridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:horizontalSpacing="4dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:scrollbarStyle="insideOverlay"
+                    android:verticalSpacing="4dp" >
+                </com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView>
+            </LinearLayout>
+<!-- 其他的显示 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+
+                <TextView
+                    android:id="@+id/othertext_0003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/listitem"
+                    android:textSize="16sp" />
+
+                <com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView
+                    android:id="@+id/othergridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:horizontalSpacing="4dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:scrollbarStyle="insideOverlay"
+                    android:verticalSpacing="4dp" >
+                </com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_MyGridView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

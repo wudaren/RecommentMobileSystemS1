@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/messagerela"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:background="@color/topbarbg" 
+        >
+
+        <Button
+            android:id="@+id/btn_gotomain_0830"
+            android:layout_width="@dimen/topbar_btn1_width"
+            android:layout_height="@dimen/topbar_btn1_width"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/topbar_btn1_margin_top"
+            android:layout_marginLeft="@dimen/topbar_btn1_margin_top"
+            android:layout_marginTop="@dimen/topbar_btn1_margin_top"
+            android:background="@drawable/arrow"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/activity_vertical_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/textview_margin_left"
+            android:gravity="center"
+            android:text="@string/xzhl0830_display"
+            android:textColor="@color/white"
+            android:textSize="@dimen/topbar_textview_textsize"
+            android:textStyle="bold" />
+   </RelativeLayout>

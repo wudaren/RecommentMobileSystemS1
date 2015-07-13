@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_addassistantinfo_0820"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_listaddassistant_0820"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:background="@color/topbarbg" >
+
+        <ImageView
+            android:contentDescription="@null"
+            android:id="@+id/iv_gobackmenu_0820"
+            android:layout_width="@dimen/topbar_btn1_width"
+            android:layout_height="@dimen/topbar_btn1_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/arrow"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:gravity="center"
+            android:text="@string/goodsinput"
+            android:textColor="@color/white"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:contentDescription="@null"
+            android:id="@+id/iv_submitgoods_0820"
+            android:layout_width="@dimen/topbar_btn2_width"
+            android:layout_height="@dimen/topbar_btn2_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fit"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="80dp"
+                 android:layout_height="fill_parent"
+                 android:layout_marginLeft="15dp"
+                 android:gravity="center_vertical"
+                 android:text="@string/xzhl0830_name"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true" >
+                <EditText
+                     android:id="@+id/et_goodsname_0820"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:singleLine="true"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="80dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/xzhl0830_cateloge"
+                 android:textColor="@color/listitem"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+               <Spinner
+                    android:id="@+id/sp_agoodstype_0820"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/kingcard"
+                    android:textColor="@color/clerkmodify"
+                    android:textSize="12sp" />
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="80dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/xzhl0830_num"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+                <EditText
+                     android:id="@+id/et_goodsnumber_0820"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:inputType="text"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="80dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/xzhl0830_cun"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+                <EditText
+                     android:id="@+id/et_stacks_0820"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="80dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/xzhl0830_gongyingshang"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+           <Spinner
+                    android:id="@+id/sp_supporter_0820"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/kingcard"
+                    android:textColor="@color/clerkmodify"
+                    android:textSize="12sp" />
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="80dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/xzhl0830_price"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+               <EditText
+                     android:id="@+id/et_saleprice_0820"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:inputType="text"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="80dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/xzhl0830_shijiprice"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+                <EditText
+                     android:id="@+id/et_suresale_0820"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:inputType="text"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+       </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
+</LinearLayout>

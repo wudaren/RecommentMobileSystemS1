@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_border"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/xzhl0310_userinfo_header" />
+    </LinearLayout>
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="#ffffff"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutuser" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:gravity="center"
+            android:paddingBottom="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#fbfdfc"
+            android:orientation="vertical" >
+		  <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="80dp"
+                android:layout_marginRight="18dp" 
+                android:layout_marginLeft="18dp">
+		    <TextView
+		        android:id="@+id/shopid"
+		        android:layout_width="90dp"
+		        android:layout_height="50dp"
+		        android:background="@null"
+		        android:gravity="bottom"
+		        android:maxLines="2" 
+		        android:text="@string/dianpubianma"
+		        android:textColor="#000000"
+		        android:textSize="16.0sp"/>
+		    <TextView
+		        android:id="@+id/storeid"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dp"
+		        android:gravity="bottom"
+		        android:textSize="18.0sp"
+		        android:singleLine="false"
+		        android:ems="40"/>
+		    </LinearLayout>
+		  	<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="80dp"              
+                android:layout_marginRight="18dp" 
+                android:layout_marginLeft="18dp"
+		        android:layout_weight="1"> 
+		    <TextView
+		        android:id="@+id/loginid"
+		        android:layout_width="90dp"
+		        android:layout_height="wrap_content"
+		        android:background="@null"
+		        android:gravity="bottom"
+		        android:text="@string/dengluming"
+		        android:textColor="#000000"
+		        android:textSize="16.0sp"/>
+		    <EditText
+		        android:id="@+id/loginname"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="bottom"
+		        android:textSize="18.0sp"
+		        android:inputType="textMultiLine"
+                android:maxLines="3"     
+		        android:background="@drawable/bginput"
+		        android:maxLength="20"
+		        android:ems="40"/>
+           </LinearLayout>
+           <RelativeLayout 
+               	android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+                android:layout_marginRight="20dp" 
+                android:layout_marginLeft="18dp"
+		        android:layout_weight="1">
+		   <Button
+		        android:id="@+id/pwdedt"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+                android:layout_alignParentRight="true" 
+		        android:layout_marginBottom="8dp"
+		        android:text="@string/mimashezhi"
+		        android:background="@null"
+		        android:textColor="#000000"
+		        android:textSize="14sp" />
+		   </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

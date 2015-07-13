@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/tv_name_1210"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/topbarbg"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@color/topbarbg"
+    ></LinearLayout>
+    <TextView 
+        android:id="@+id/tv_caozuoxiugai_1210"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xiugai1210"
+        android:textSize="20sp"
+        android:textColor="@color/listitem"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+        />
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/listviewhead"
+    ></LinearLayout>
+    <TextView 
+        android:id="@+id/tv_caozuoshanchu_1210"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shanchu1210"
+        android:textSize="20sp"
+        android:textColor="@color/listitem"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+        />
+</LinearLayout>

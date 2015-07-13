@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_name_1050"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/topbarbg"
+        android:ems="20"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/topbarbg" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_change_1050"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/xzhl1010_change"
+        android:textColor="@color/listitem"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/listviewhead" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_delete_1050"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/xzhl1010_delete"
+        android:textColor="@color/listitem"
+        android:textSize="20sp" />
+
+</LinearLayout>

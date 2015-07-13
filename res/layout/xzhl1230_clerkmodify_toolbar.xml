@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+ <RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/messagerela"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dp"
+        android:background="@color/topbarbg" 
+        >
+
+        <Button
+            android:id="@+id/btn_gotomain_1230"
+            android:layout_width="35.0dp"
+            android:layout_height="35.0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/arrow"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:gravity="center"
+            android:text="@string/modifyclerk"
+            android:textColor="@color/white"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_clerkmodify_1230"
+            android:layout_width="35.0dp"
+            android:layout_height="35.0dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fit"
+            android:gravity="center"
+            android:textColor="@color/clerkmodify"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    
+

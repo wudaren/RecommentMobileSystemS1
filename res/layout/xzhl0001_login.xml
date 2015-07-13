@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/background_login">
+  <!-- padding 内边距   layout_margin 外边距
+  		android:layout_alignParentTop 布局的位置是否处于顶部 -->
+  <RelativeLayout 
+  	android:id="@+id/login_div"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:padding="15dip"        
+  	android:layout_margin="15dip" 
+  	android:background="@drawable/background_login_div_bg"
+  	>
+  	<!-- 账号 -->
+  	<TextView 
+  		android:id="@+id/login_user_input"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_alignParentTop="true"
+  		android:layout_marginTop="5dp"
+  		android:text="@string/dengluzhanghao"
+  		style="@style/normalText"/>
+  	<EditText 
+  		android:id="@+id/username_edit"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:maxLength="20"
+  		android:layout_below="@id/login_user_input"
+  		android:singleLine="true"
+  		android:text=""
+  		android:inputType="text"/>
+    <!-- 密码 text -->
+    <TextView 
+    	android:id="@+id/login_password_input"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/username_edit"
+    	android:layout_marginTop="3dp"
+    	android:text="@string/denglupass"
+    	style="@style/normalText"/>
+    <EditText 
+    	android:id="@+id/password_edit"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	 android:inputType="textPassword"
+    	android:layout_below="@id/login_password_input"
+    	android:maxLength="20"
+    	android:singleLine="true"
+    	
+    />
+    <!-- 记住密码    android:background="@drawable/shapeconer" -->
+
+     <CheckBox
+         android:id="@+id/rememberPassword"
+         android:layout_width="150dip"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/password_edit"
+        android:text="@string/jizhupass"
+         android:textColor="#000000"
+         android:textStyle="normal" />
+
+      <!-- 自动登录 -->
+   <CheckBox 
+
+                android:id="@+id/autoLogin" 
+
+                android:layout_width="150dip" 
+
+                android:text="@string/autodenglu"
+               
+                 android:layout_marginLeft="5dip"
+                 android:textColor="#000000"
+
+                android:layout_height="wrap_content" 
+
+                  android:layout_toRightOf="@id/rememberPassword" 
+
+                android:layout_alignTop="@id/rememberPassword"/>
+    
+    <!-- 登录button -->
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/password_edit"
+        android:layout_below="@+id/rememberPassword"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blue_button"
+        android:text="@string/login_label_signin" />
+
+  </RelativeLayout>
+  
+  
+  <RelativeLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:padding="5dip"        
+  		android:layout_margin="5dip" 
+      >
+	 
+	  
+	   <ImageView
+	       android:contentDescription="@null"
+	       android:id="@+id/login_us"
+	       style="@style/normalText"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentBottom="true"
+	       android:layout_centerHorizontal="true"
+	       android:layout_marginBottom="16dp"
+	       android:background="@drawable/hisense" />
+	 
+	  
+	    </RelativeLayout>
+ 
+</LinearLayout>

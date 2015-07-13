@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 引用标题栏 -->
+    <include 
+        layout="@layout/xzhl0160_toolbar_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"/>
+
+    <!-- 页面内容显示区域 -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="120.0dip"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:orientation="horizontal">
+
+                <!-- 会员照片 -->
+                <ImageView 
+                    android:id="@+id/iv_photo_0160"
+                    android:contentDescription="@null"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/rc_item_bg"
+                    android:scaleType="fitXY"/>
+                <LinearLayout  
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="4dp"
+                    android:orientation="vertical">
+                    <TextView 
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:visibility="gone"/>
+                    <LinearLayout android:layout_height="match_parent"
+                        android:layout_width="fill_parent"
+                        android:orientation="vertical">
+
+                        <!-- 会员姓名 -->
+                        <LinearLayout 
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <TextView 
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="4dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textcolor"
+                                android:textSize="16sp"
+                                android:text="@string/xzhl0160_name"/>
+                            <TextView 
+                                android:id="@+id/tv_name_0160"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:textColor="@color/textcolor"
+                                android:textSize="14sp"
+                                android:text=""/>
+                        </LinearLayout>
+
+                        <!-- 会员类型 -->
+                        <LinearLayout 
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <TextView 
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="4dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textcolor"
+                                android:textSize="16sp"
+                                android:text="@string/xzhl0160_type"/>
+                            <TextView 
+                                android:id="@+id/tv_type_0160"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:textColor="@color/textcolor"
+                                android:textSize="14sp"
+                                android:text=""/>
+                        </LinearLayout>
+
+                        <!-- 会员电话 -->
+                        <LinearLayout 
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <TextView 
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="4dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textcolor"
+                                android:textSize="16sp"
+                                android:text="@string/xzhl0160_tel"/>
+                            <TextView 
+                                android:id="@+id/tv_tel_0160"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:textColor="@color/textcolor"
+                                android:textSize="14sp"
+                                android:text=""/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 会员性别 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginTop="16dp" >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textcolor"
+                    android:textSize="16sp"
+                    android:text="@string/xzhl0160_sex"/>
+                   <TextView 
+                    android:id="@+id/tv_sex_0160"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:text=""/>
+             </LinearLayout>
+
+            <!-- 会员生日 -->
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginLeft="12.0dip"
+                 android:layout_marginTop="16dp" >
+                 <TextView 
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginRight="4dp"
+                     android:gravity="center_vertical"
+                     android:textColor="@color/textcolor"
+                     android:textSize="16sp"
+                     android:text="@string/xzhl0160_birthday"/>
+                 <TextView 
+                     android:id="@+id/tv_birthday_0160"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="8dp"
+                     android:layout_marginRight="8dp"
+                     android:textColor="@color/textcolor"
+                     android:textSize="14sp"
+                     android:text=""/>
+             </LinearLayout>
+
+             <!-- 会员住址 -->
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginLeft="12.0dip"
+                 android:layout_marginTop="16dp" >
+                 <TextView 
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginRight="4dp"
+                     android:gravity="center_vertical"
+                     android:textColor="@color/textcolor"
+                     android:textSize="16sp"
+                     android:text="@string/xzhl0160_address"/>
+                 <TextView 
+                     android:id="@+id/tv_address_0160"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="8dp"
+                     android:layout_marginRight="8dp"
+                     android:textColor="@color/textcolor"
+                     android:textSize="14sp"
+                     android:text=""/>
+             </LinearLayout>
+
+             <!-- 会员备注 -->
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginLeft="12.0dip"
+                 android:layout_marginTop="16dp" >
+                 <TextView 
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginRight="4dp"
+                     android:gravity="center_vertical"
+                     android:textColor="@color/textcolor"
+                     android:textSize="16sp"
+                     android:text="@string/xzhl0160_remark"/>
+                 <TextView 
+                     android:id="@+id/tv_remark_0160"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="8dp"
+                     android:layout_marginRight="8dp"
+                     android:textColor="@color/textcolor"
+                     android:textSize="14sp"
+                     android:text=""/>
+             </LinearLayout>
+         </LinearLayout>
+     </ScrollView>  
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/topbarbg" >
+
+<!-- 标题栏的回退图片 -->
+    <ImageView
+        android:id="@+id/iv_back_0160"
+        android:layout_width="@dimen/topbar_btn1_width"
+        android:layout_height="@dimen/topbar_btn1_height"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/topbar_btn1_margin_left"
+        android:contentDescription="@null"
+        android:src="@drawable/arrow" />
+
+<!-- 标题栏的文本内容 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="@string/huiyuanxiangxixinxi"
+        android:textColor="@color/white"
+        android:textSize="@dimen/topbar_textview_textsize"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_bianji_0160"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bianji"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+    
+</RelativeLayout>

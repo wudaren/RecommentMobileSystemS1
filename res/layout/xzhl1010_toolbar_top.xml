@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/head"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/topbarbg" >
+
+    <!-- 标题栏的回退图片 -->
+    <ImageView
+        android:id="@+id/iv_back_1010"
+        android:contentDescription="@null"
+        android:layout_width="@dimen/topbar_btn1_width"
+        android:layout_height="@dimen/topbar_btn1_height"
+        android:background="@drawable/arrow"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/topbar_btn1_margin_left" />
+
+    <!-- 标题栏的文本内容 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="@string/xzhl1010_toolbar"
+        android:textColor="@color/white"
+        android:textSize="@dimen/topbar_textview_textsize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_add_1010"
+        android:contentDescription="@null"
+        android:layout_width="@dimen/topbar_btn1_width"
+        android:layout_height="@dimen/topbar_btn1_height"
+        android:background="@drawable/add"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/topbar_btn2_margin_left" />
+
+</RelativeLayout>

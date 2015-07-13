@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/head"
+    android:layout_width="fill_parent"
+    android:layout_height="60.0dp"
+    android:background="@color/topbarbg" >
+<!--  XZHL0810画面的toolbar布局 -->
+    <ImageView
+        android:id="@+id/iv_returnmenu_1710"
+        android:contentDescription="@null"
+        android:layout_width="@dimen/topbar_btn1_width"
+        android:layout_height="@dimen/topbar_btn1_height"
+        android:background="@drawable/arrow"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="@string/xzhl1710_passengerflow"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

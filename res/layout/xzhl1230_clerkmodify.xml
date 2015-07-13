@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <include 
+       android:layout_width="match_parent"
+        android:layout_height="60dp"
+       layout="@layout/xzhl1230_clerkmodify_toolbar"
+              />
+   <!-- 姓名 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/xingming"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_name_1230"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="2"
+            android:inputType="text"
+            android:maxLength="50"
+            android:singleLine="true" />
+    </LinearLayout>
+    <!-- 电话 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dianhua"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_tel_1230"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="2"
+            android:inputType="phone"
+            android:maxLength="50"
+            android:singleLine="true" />
+    </LinearLayout>
+    <!-- 登录名 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dengluming"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_loginname_1230"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="2"
+            android:inputType="text"
+            android:maxLength="50"
+            android:singleLine="true" />
+    </LinearLayout>
+    <!-- 登陆密码 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/denglumima"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_loginpass_1230"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="2"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:singleLine="true" />
+    </LinearLayout>
+    <!-- 确认密码 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/querenmima"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_okpass_1230"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="2"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:singleLine="true" />
+    </LinearLayout>
+    <!-- 权限 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/quanxian"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/sp_quanxian_1230"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+</LinearLayout>

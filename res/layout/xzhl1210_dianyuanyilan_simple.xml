@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lgg.demo0422.XZHL0910_Activity$PlaceholderFragment" >
+
+    <RelativeLayout
+        android:id="@+id/rv_listhead_1210"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dp"
+        android:background="@color/topbarbg" >
+
+        <Button
+            android:id="@+id/btn_gotomain_1210"
+            android:layout_width="35.0dp"
+            android:layout_height="35.0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/arrow"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:gravity="center"
+            android:text="@string/dianyuanyilan"
+            android:textColor="@color/white"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_tianjia_1210"
+            android:layout_width="35.0dp"
+            android:layout_height="35.0dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/add"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_dianyuanlist_1210"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/listviewhead"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_dianyuanyilanIdHead_1210"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_qnumberHead_1210"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/xuhao"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_xingmingHead_1210"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3.5"
+            android:gravity="center"
+            android:text="@string/xingming1210"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_denglumingHead_1210"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3.5"
+            android:gravity="center"
+            android:text="@string/dengluming1210"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_quanxianHead_1210"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/quanxian1210"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_dianhuaHead_1210"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_pblist_1210"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lv_listdianyuan_1210"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/bg_topbar"
+        android:dividerHeight="1dp" 
+        android:listSelector="@drawable/xzhl1210_listview_selector"
+        />
+
+</LinearLayout>

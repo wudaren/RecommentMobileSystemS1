@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_addassistantinfo_1220"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_listaddassistant_1220"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:background="@color/topbarbg" >
+
+        <ImageView
+            android:contentDescription="@null"
+            android:id="@+id/iv_gobackmenu_1220"
+            android:layout_width="@dimen/topbar_btn1_width"
+            android:layout_height="@dimen/topbar_btn1_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/arrow"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:gravity="center"
+            android:text="@string/assistantinfo"
+            android:textColor="@color/white"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:contentDescription="@null"
+            android:id="@+id/iv_submitassistantinfo_1220"
+            android:layout_width="@dimen/topbar_btn2_width"
+            android:layout_height="@dimen/topbar_btn2_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fit"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="70dp"
+                 android:layout_height="fill_parent"
+                 android:layout_marginLeft="15dp"
+                 android:gravity="center_vertical"
+                 android:text="@string/name"
+                 android:singleLine="true"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true" >
+                <EditText
+                     android:id="@+id/et_assistantusername_1220"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:singleLine="true"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="70dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/mobile"
+                 android:textColor="@color/listitem"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+                <EditText
+                     android:id="@+id/et_assistantmobile_1220"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:inputType="phone"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="70dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/loginname"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+                <EditText
+                     android:id="@+id/et_assistantloginname_1220"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:inputType="text"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="70dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/denglumima"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+                <EditText
+                     android:id="@+id/et_assistantloginpassword_1220"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:inputType="textPassword"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="70dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/querenmima"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+                <EditText
+                     android:id="@+id/et_assistantsurepassword_1220"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginRight="15dp"
+                     android:inputType="textPassword"
+                     android:hint=""
+                     android:ems="30"
+                     android:textColor="@color/clerkmodify"
+                     android:textSize="14sp" />
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+            <TextView
+                 android:layout_width="70dp"
+                 android:layout_height="fill_parent"
+                 android:gravity="center_vertical"
+                 android:text="@string/quanxian"
+                 android:textColor="@color/clerkmodify"
+                 android:textSize="16sp" />
+            <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:orientation="horizontal" 
+               android:focusable="true" 
+               android:focusableInTouchMode="true">
+               <Spinner
+                    android:id="@+id/sp_assistantrolespinner_1220"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/kingcard"
+                    android:textColor="@color/clerkmodify"
+                    android:textSize="12sp" />
+       </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
+</LinearLayout>

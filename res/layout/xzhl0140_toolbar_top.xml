@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/topbarbg" >
+
+    <Button
+        android:id="@+id/btn_gotoback_xzhl0140"
+        android:layout_width="@dimen/topbar_btn2_width"
+        android:layout_height="@dimen/topbar_btn2_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/topbar_btn2_margin_left"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arrow"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:gravity="center"
+        android:text="@string/vipinforxiugai"
+        android:textColor="@color/white"
+        android:textSize="20.0sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_submitvipinfo_xzhl0140"
+        android:layout_width="35.0dp"
+        android:layout_height="35.0dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/topbar_btn2_margin_left"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fit"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

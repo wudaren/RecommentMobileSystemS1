@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fbse.recommentmobilesystem"
+    android:versionCode="12"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/zhi"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0000.XZHL0000_LoadActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0150.XZHL0150_ActivityDialog"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CustomDialog" />
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0110.XZHL0110_CustomerListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0210.XZHL0210_ShowQuestioniareActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0220.XZHL0220_QuestioniareDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_FunctionListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0004.XZHL0004_SendInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0130.XZHL0130_VipInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0310.XZHL0310_InfoChangeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0320.XZHL0320_PwdChangeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0001.XZHL0001_LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0120.XZHL0120_DatleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0410.XZHL0410_TaskFinishActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0510.XZHL0510_EquitmentListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0520.XZHL0520_RecordListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0530.XZHL0530_Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0810.XZHL0810_ShopDisplayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0910.XZHL0910_ShopSuggest"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1010.XZHL1010_Advertisement"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1810.XZHL1810_HotShowActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0820.XZHL0820_InsertNewGoodsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1000.XZHL1000_DaiYou"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1310.XZHL1310_MsgActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1230.XZHL1230_ClerkModify"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1320.XZHL1320_MsgdetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0140.XZHL0140_MemberModify"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0150.XZHL0150_MemberQuery"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0160.XZHL0160_MemberAllQuery"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0820.XZHL0820_ShopLoad"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0840.XZHL0840_ShopModifyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0830.XZHL0830_ShopAllDisplay"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0850.XZHL0850_ShopList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0610.XZHL0610_MailInfoInput"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0620.XZHL0620_MailInfoDisplayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0630.XZHL0630_MailDetailsShow"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0640.XZHL0640_MailInfoModify"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0650.XZHL0650_MailSummary"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1020.XZHL1020_AdvertisementInput"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1030.XZHL1030_AdvertisementModify"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1040.XZHL1040_AdverAllInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1050.XZHL1050_Advertisement"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1060.XZHL1060_ShopList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1110.XZHL1110_NextDisplay"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1120.XZHL1120_NextInput"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1130.XZHL1130_NextModify"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1140.XZHL1140_NextInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1150.XZHL1150_NextDisplay2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1160.XZHL1160_OtherNextInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1170.XZHL1170_NextTotal"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1180.XZHL1180_CommisionTotal"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1190.XZHL1190_EveryShopTotal"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1210.XZHL1210_ClerkDisplayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1220.XZHL1220_ClerkInputActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1610.XZHL1610_Camera"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1240.XZHL1240_StoreCountsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1410.XZHL1410_MoneyShow"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1450.XZHL1450_ShopList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1510.XZHL1510_TodayBuyTotal"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1520.XZHL1520_TimeDataQuery"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1530.XZHL1530_BuyTotal"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1540.XZHL1540_TypeTotal"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1550.XZHL1550_ShopList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1710.XZHL1710_PassengerFlowActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL1720.XZHL1720_ShopList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0130.XZHL0130_VipInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+<activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0130.XZHL0130_MainActivity"
+            android:label="@string/title_activity_xzhl0130__main" >
+        </activity>
+        <activity
+            android:name="com.fbse.recommentmobilesystem.XZHL0130.XZHL0130_SettingsActivity"
+            android:label="@string/title_activity_xzhl0130__settings" >
+        </activity>
+        <service
+            android:name="org.androidpn.client.NotificationService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="NotificationService" >
+            <intent-filter>
+                <action android:name="org.androidpn.client.NotificationService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.fbse.recommentmobilesystem.XZHL0003.XZHL0003_PowerService"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </service>
+    </application>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f3f5f4" >
+
+    <RelativeLayout
+        android:id="@+id/myEmailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+        <include layout="@layout/xzhl0110_toolbar_top" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no_data1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginTop="70.0dp"
+        android:background="@drawable/comment_list_item"
+        android:cacheColorHint="#00000000"
+        android:gravity="center_vertical"
+        android:text="@string/nocustumer"
+        android:textColor="#963"
+        android:textSize="12sp"
+        android:visibility="gone" >
+    </TextView>
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/myEmailTitle"
+        android:divider="@drawable/list_line"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:columnWidth="150dp"
+       
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+</RelativeLayout>

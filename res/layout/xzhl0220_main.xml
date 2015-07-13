@@ -1,0 +1,110 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".XZHL0220_QuestioniareDetailActivity"
+    android:orientation="vertical"
+    >
+    <RelativeLayout 
+    android:id="@+id/rl_listhead_0220"
+    android:layout_width="fill_parent"
+    android:layout_height="60.0dp"
+    android:background="#41a9ef" >
+
+    <Button
+        android:id="@+id/btn_goToList_0220"
+        android:layout_width="35.0dp"
+        android:layout_height="35.0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arrow"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:gravity="center"
+        android:text="@string/wenjuanxiangxi"
+        android:textColor="#FFFFFF"
+        android:textSize="20.0sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_submitanswer_0220"
+        android:layout_width="35.0dp"
+        android:layout_height="35.0dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fit"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+ <ProgressBar 
+        android:id="@+id/pb_pbdetail_0220"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+    <ListView
+        android:id="@+id/lv_detail_0220"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:dividerHeight="1dp"
+        android:divider="@drawable/bg_topbar"
+         />
+        <RelativeLayout 
+        android:id="@+id/rl_linearbs_0220"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button 
+        android:id="@+id/btn_back_0220"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/shangyiye"
+        android:textColor="#8c8989"
+        />
+        <TextView 
+            android:id="@+id/tv_progressTv_0220"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="#41a9ef"
+            />
+         <Button 
+        android:id="@+id/btn_go_0220"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/xiayiye"
+        android:textColor="#8c8989"
+        />
+    </RelativeLayout>  
+    
+</LinearLayout>
+    
+
+

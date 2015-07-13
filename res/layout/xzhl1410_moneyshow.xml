@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 引用标题栏 -->
+    <include 
+        layout="@layout/xzhl0160_toolbar_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"/>
+
+    <!-- 页面内容显示区域 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 前台销售 -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/xzhl1410_qtxs"/>
+            <TextView 
+                android:id="@+id/tv_qtxs_1410"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp"
+                android:gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:text="@string/xzhl1410_contact"/>
+        </LinearLayout>
+
+        <!-- 批发销售 -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/xzhl1410_pfxs"/>
+            <TextView 
+                android:id="@+id/tv_pfxs_1410"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp"
+                android:gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:text="@string/xzhl1410_contact"/>
+        </LinearLayout>
+
+        <!-- 当前时间 -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/xzhl1410_time"/>
+            <TextView 
+                android:id="@+id/tv_time_1410"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp"
+                android:gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:text="@string/xzhl1410_contact"/>
+        </LinearLayout>
+
+        <!-- 门店名称 -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/xzhl1410_shopname"/>
+            <TextView 
+                android:id="@+id/tv_shopname_1410"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp"
+                android:gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:text="@string/xzhl1410_contact"/>
+        </LinearLayout>
+
+        <!-- 门店地址 -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/xzhl1410_shopadd"/>
+            <TextView 
+                android:id="@+id/tv_shopadd_1410"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp"
+                android:gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:text="@string/xzhl1410_contact"/>
+        </LinearLayout>
+
+        <!-- 门店电话 -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/xzhl1410_shoptel"/>
+            <TextView 
+                android:id="@+id/tv_shoptel_1410"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp"
+                android:gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:text="@string/xzhl1410_contact"/>
+        </LinearLayout>
+
+        <!-- 联系人 -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:textColor="@color/textcolor"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/xzhl1410_contact"/>
+            <TextView 
+                android:id="@+id/tv_contact_1410"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7.5"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp"
+                android:gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:text="@string/xzhl1410_contact"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

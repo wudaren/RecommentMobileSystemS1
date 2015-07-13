@@ -1,0 +1,329 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/modifybackground"
+    android:orientation="vertical"
+    tools:context="com.lgg.demo0521_pm.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rv_listhead_0840"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dp"
+        android:background="@color/topbarbg" >
+
+        <Button
+            android:id="@+id/btn_gotomain_0840"
+            android:layout_width="35.0dp"
+            android:layout_height="35.0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/arrow"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:gravity="center"
+            android:text="@string/shangpinxiugai"
+            android:textColor="@color/white"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_tijiao_0840"
+            android:layout_width="35.0dp"
+            android:layout_height="35.0dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fit"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_one_0840"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_shangpinmingcheng_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="4dp"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/shangpinmingcheng"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/et_shangpinmingcheng_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/xzhl0840_edittext_bg"
+                    android:inputType="text"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_two_0840"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_shangpinpinlei_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/shangpinpinlei"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_shangpinpinlei_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:textColor="@color/modifytextcolor"
+                    android:background="@drawable/xzhl0840_spinner_background_holo_dark"
+                    android:dropDownSelector="@drawable/xzhl0840_spinner_dropdown_background"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_three_0840"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_shangpinhuohao_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="4dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/shangpinhuohao"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/et_shangpinhuohao_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/xzhl0840_edittext_bg"
+                    android:digits="1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-/*"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_four_0840"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_kucun_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="4dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/kucun"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/et_kucun_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/xzhl0840_edittext_bg"
+                    android:inputType="number"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_five_0840"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_gongyingshang_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="4dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/gongyingshang"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_gongyingshang_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:textColor="@color/modifytextcolor"
+                    android:background="@drawable/xzhl0840_spinner_background_holo_dark"
+                    android:dropDownSelector="@drawable/xzhl0840_spinner_dropdown_background"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_six_0840"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_shichangjiage_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="4dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/shichangjiage"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/et_shichangjiage_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/xzhl0840_edittext_bg"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_seven_0840"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_shijixiaoshoujia_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="4dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/shijixiaoshoujia"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/et_shijixiaoshoujia_0840"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/xzhl0840_edittext_bg"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="@color/modifytextcolor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

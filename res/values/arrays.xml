@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="function_list_text_host">
+        <item>消息与通知</item>
+        <item>导购</item>
+        <item>问卷调查</item>
+        <item>任务完成状况</item>
+        <item>金融数据查询</item>
+        <item>客流统计</item>
+        <item>监控</item>
+        <item>业务数据查询</item>
+        <item>人流动线分析</item>
+        <item>代邮</item>
+        <item>会员一览</item>
+        <item>商品展示</item>
+        <item>商城推荐</item>
+        <item>广告设置</item>
+        <item>下一站营销</item>
+        <item>设备管理</item>
+        <item>服务评价</item>
+        <item>店员管理</item>
+        <item>账户设置</item>
+        <item>店员管理</item>
+    </string-array>
+    <string-array name="function_list_cai">
+        <item>通知</item>
+        <item>经营管理</item>
+        <item>营销</item>
+        <item>设备管理</item>
+        <item>其他<item></item></item>
+    </string-array>
+    <string-array name="equiptitlelist">
+        <item>商业pos</item>
+        <item>金融pos</item>
+        <item>摄像头</item>
+        <item>pad</item>
+        <item>网络设备</item>
+        <item>电视</item>
+        <item>电子秤</item>
+        <item>软件</item>
+        <item>便民终端</item>
+    </string-array>
+    <string-array name="vipinfo_membertype">
+        <item>普通会员</item>
+        <item>金卡</item>
+        <item>银卡</item>
+        <item>梦卡</item>
+        <item>其他</item>
+    </string-array>
+    
+     <string-array name="vipinfo_select">
+        <item>会员类型</item>
+        <item>普通会员</item>
+        <item>金卡</item>
+        <item>银卡</item>
+        <item>梦卡</item>
+         <item>其他</item>
+        
+    </string-array>
+    <string-array name="pictureselectdialog">
+        <item>拍照</item>
+        <item>从相册选择</item>
+    </string-array>
+ 	<string-array name="role">
+        <item>商家管理员</item>
+        <item>门店店长</item>
+        <item>门店店员</item>
+    </string-array>
+    <string-array name="dzrole">
+        <item>门店店员</item>
+    </string-array>
+	 <string-array name="dyrole">
+         <item>门店店长</item>
+        <item>门店店员</item>
+    </string-array>
+    
+	<string-array name="mailinfo">
+        <item>修改邮寄信息</item>
+        <item>删除邮寄信息</item>
+    </string-array>
+    
+	<string-array name="shangpingongyingshang">
+        <item>绝味鸭脖</item>
+        <item>绝味鸭头</item>
+        <item>绝味鸭掌</item>
+        <item>绝味鸭舌</item>
+        <item>无供应商</item>
+    </string-array>
+    
+	<string-array name="shangpinpinlei">
+        <item>食品</item>
+        <item>服装</item>
+        <item>家具</item>
+        <item>电子产品</item>
+        <item>其他</item>
+    </string-array>
+    
+	<string-array name="keys">
+        <item>id</item>
+        <item>goodsName</item>
+        <item>goodsType</item>
+        <item>goodsNumber</item>
+        <item>stocks</item>
+        <item>supplier</item>
+        <item>price</item>
+        <item>realityPrice</item>
+    </string-array>
+    
+	<string-array name="memberadd">
+        <item>image</item>
+        <item>name</item>
+        <item>type</item>
+        <item>tel</item>
+        <item>sex</item>
+        <item>birthday</item>
+        <item>address</item>
+        <item>remarks</item>
+    </string-array>
+    
+    
+	<string-array name="names">
+        <item>商品名称</item>
+        <item>商品货号</item>
+        <item>库存</item>
+        <item>市场价格</item>
+        <item>实际销售价</item>
+    </string-array>
+    
+	<string-array name="hotequip">
+        <item>客流侦测摄像头</item>
+        <item>AAA摄像头</item>
+        <item>BBB摄像头</item>
+        <item>CCC摄像头</item>
+        <item>DDD摄像头</item>
+    </string-array>
+    <string-array name="charttype">
+        <item>折线图</item>
+        <item>柱状图</item>
+        <item>饼图</item>
+    </string-array>
+    <string-array name="datetype">
+        <item>日</item>
+        <item>月</item>
+    </string-array>
+</resources>

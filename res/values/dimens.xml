@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin">10dp</dimen>
+<dimen name="topbar_height">60dp</dimen>
+  <dimen name="topbar_btn1_width">35dp</dimen>
+  <dimen name="topbar_btn1_height">35dp</dimen>
+  <dimen name="topbar_btn1_margin_top">8dp</dimen>
+  <dimen name="topbar_btn1_margin_left">8dp</dimen>
+  <dimen name="topbar_btn1_margin_bottom">8dp</dimen>
+  <dimen name="textview_margin_left">18dp</dimen>
+  <dimen name="topbar_btn2_width">35dp</dimen>
+  <dimen name="topbar_btn2_height">35dp</dimen>
+  <dimen name="topbar_btn2_margin_top">8dp</dimen>
+  <dimen name="topbar_btn2_margin_left">8dp</dimen>
+  <dimen name="topbar_btn2_margin_bottom">8dp</dimen>
+  <dimen name="topbar_textview_textsize">20sp</dimen>
+  
+  <dimen name="top_search_linear_padding_top">5dp</dimen>
+  <dimen name="top_search_linear_padding_bottom">5dp</dimen>
+  <dimen name="top_search_edittext_padding_left">4dp</dimen>
+  <dimen name="timeheight">30dp</dimen>
+</resources>

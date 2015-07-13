@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"  
+    android:background="#ffffff">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <TextView 
+            android:id="@+id/tv_sequence_xzhl0520"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"   
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="@string/xuhao"
+            android:textSize="12.0sp"/>
+         <TextView 
+            android:id="@+id/tv_pepairDate_xzhl0520"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="@string/baoxiuri"
+            android:textSize="12.0sp"/>
+        <TextView 
+            android:id="@+id/tv_stateRepair_xzhl0520"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="@string/weixiuzhuangtai"
+            android:textSize="12.0sp"/> 
+        <Button 
+            android:id="@+id/btn_operate_xzhl0520"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="@null"
+            android:text="@string/caozuo"
+            android:textSize="12.0sp"/> 
+
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 引用功能表的大标题 -->
+    <include 
+        layout="@layout/xzhl0140_toolbar_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"/>
+
+     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120.0dip"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+                <ImageView
+                    android:contentDescription="@null"
+                    android:id="@+id/iv_vippicture_xzhl0140"
+                    android:layout_width="110.0dip"
+                    android:layout_height="110.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/rc_item_bg"
+                    android:scaleType="fitXY" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="4dp" >
+<!--会员姓名  -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="4dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/vipname"
+                            android:textColor="@color/textcolor"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/et_vipname_xzhl0140"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="@string/nametest"
+                            android:hint="@null"
+                            android:singleLine="true"
+                            android:layout_weight="1"
+                            android:textColor="@color/textcolor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+<!--会员类型  -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="4dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/vipleixing"
+                            android:textColor="@color/textcolor"
+                            android:textSize="16sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_viptypespinner_xzhl0140"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="@string/kingcard"
+                            android:textColor="@color/textcolor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+<!--手机号码  -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="4dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/vipmobile"
+                            android:textColor="@color/textcolor"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/et_vipmoblie_xzhl0140"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="@string/vipmobile"
+                            android:textColor="@color/textcolor"
+                            android:hint=""
+                            android:singleLine="true"
+                            android:layout_weight="1"
+                            android:inputType="phone"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:contentDescription="@null"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:src="@drawable/fen" />
+<!--性别  -->
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:text="@string/sex"
+                    android:textColor="@color/textcolor"
+                    android:textSize="16sp" />
+                       <RadioGroup
+                           android:id="@+id/rd_radiogroupsex_xzhl0140"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal">
+                           <RadioButton  
+                               android:id="@+id/rd_radiobuttonmale_xzhl0140"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:textSize="16sp"
+                               android:text="@string/male" />
+                           <RadioButton  
+                               android:id="@+id/rd_radiobuttonfemale_xzhl0140"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:textSize="16sp"
+                               android:text="@string/female" />
+                       </RadioGroup> 
+              </LinearLayout>
+<!--生日  -->
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginTop="10dp">
+                   <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="4dp"
+                      android:gravity="center_vertical"
+                      android:text="@string/birthday"
+                      android:textColor="@color/textcolor"
+                      android:textSize="16sp" />
+
+                   <TextView
+                       android:id="@+id/et_vipbirthday_xzhl0140"
+                       android:layout_width="120dp"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/birthday_textview_data_border_blue"
+                       android:gravity="center_vertical"
+                       android:hint=""
+                       android:textColor="@color/textcolor"
+                       android:textSize="14sp" />
+
+                   <ImageView 
+                       android:contentDescription="@null"
+                       android:layout_width="wrap_content"
+                       android:layout_marginLeft="4dp"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/calendar"/>
+              </LinearLayout>
+<!--住址  -->
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginTop="10dp">
+
+                   <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="4dp"
+                      android:gravity="center_vertical"
+                      android:text="@string/address"
+                      android:textColor="@color/textcolor"
+                      android:textSize="16sp" />
+
+                   <EditText
+                      android:id="@+id/et_vipaddress_xzhl0140"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_vertical"
+                      android:layout_marginRight="10dp"
+                      android:hint=""
+                      android:singleLine="true"
+                      android:layout_weight="1"
+                      android:textColor="@color/textcolor"
+                      android:textSize="14sp" />
+              </LinearLayout>
+<!--备注  -->
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginTop="10dp">
+
+                   <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="4dp"
+                      android:gravity="center_vertical"
+                      android:text="@string/beizhu"
+                      android:textColor="@color/textcolor"
+                      android:textSize="16sp" />
+
+                     <EditText
+	                    android:hint=""
+	                    android:id="@+id/et_remarks_xzhl0140"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="10dp"
+	                    android:layout_weight="1"
+	                    android:background="@android:drawable/edit_text"
+	                    android:gravity="top"
+	                    android:minHeight="30dp"
+	                    android:minLines="4"
+	                    android:textSize="12sp" />
+              </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

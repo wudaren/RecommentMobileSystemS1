@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 引用标题 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        layout="@layout/xzhl0620_toolbar_top" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 搜索框 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="@color/searchbackground"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/top_search_linear_padding_top"
+                android:paddingRight="@dimen/top_search_linear_padding_bottom"
+                android:paddingTop="5dp" >
+
+                <EditText
+                    android:id="@+id/et_mailsearch_xzhl0620"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/top_search_background_shape_white"
+                    android:drawablePadding="4dp"
+                    android:maxLength="51"
+                    android:drawableRight="@drawable/search"
+                    android:hint="@string/inputorder"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="@dimen/top_search_edittext_padding_left"
+                    android:paddingRight="8dp"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+
+            <!-- 四个标题 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/xzhl1010_no"
+                    android:textColor="@color/clerkmodify"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="@string/xzhl0620_order_id"
+                    android:textColor="@color/clerkmodify"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/xzhl0620_membername"
+                    android:textColor="@color/clerkmodify"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/xzhl0620_status"
+                    android:textColor="@color/clerkmodify"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fengexian" />
+
+            <com.fbse.recommentmobilesystem.XZHL0120.XZHL0120_MyListVIew
+                android:id="@+id/lv_mailinfo_xzhl0620"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:listSelector="@color/selflistviewlistselector"
+                android:scrollbarStyle="insideOverlay"
+                android:verticalSpacing="1dp" >
+            </com.fbse.recommentmobilesystem.XZHL0120.XZHL0120_MyListVIew>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fen" />
+            <!-- 显示的进度条 -->
+            <LinearLayout
+                android:id="@+id/ll_mailpro_xzhl0620"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        
+                <TextView
+                    android:id="@+id/nodata_task"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/onpro"
+                    android:textColor="@color/textcolor" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

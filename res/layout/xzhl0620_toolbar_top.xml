@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/topbarbg" >
+
+    <ImageView
+        android:id="@+id/iv_gotoback_xzhl0620"
+        android:layout_width="@dimen/topbar_btn2_width"
+        android:layout_height="@dimen/topbar_btn2_width"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/topbar_btn2_margin_left"
+        android:contentDescription="@null"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:gravity="center"
+        android:text="@string/mailinfo"
+        android:textColor="@color/white"
+        android:textSize="20.0sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:contentDescription="@null"
+        android:id="@+id/iv_addmailinfo_xzhl0620"
+        android:layout_width="@dimen/topbar_btn2_width"
+        android:layout_height="@dimen/topbar_btn2_width"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/add" 
+        android:layout_marginRight="@dimen/topbar_btn2_margin_left" />
+
+</RelativeLayout>

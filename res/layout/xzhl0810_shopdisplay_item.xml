@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_0810"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:orientation="horizontal" >
+    
+	<TextView 
+	    android:id="@+id/tv_goodsno_0810"
+	    android:layout_width="0dip"
+	    android:layout_height="35dip"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="center"
+	    android:layout_weight="1"/>
+	<TextView 
+	    android:id="@+id/tv_goodsname_0810"
+	    android:layout_width="0dip"
+	    android:layout_height="35dip"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="center_vertical"
+	    android:layout_weight="2"/>
+	<TextView 
+	    android:id="@+id/tv_goodsclass_0810"
+	    android:layout_width="0dip"
+	    android:layout_height="35dip"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="center"
+	    android:layout_weight="1"/>
+	<TextView 
+	    android:id="@+id/tv_goodsprice_0810"
+	    android:layout_width="0dip"
+	    android:layout_height="35dip"
+	    android:layout_gravity="center_vertical"
+	    android:layout_marginRight="20dp"
+	    android:gravity="right|center"
+	    android:layout_weight="3"/>
+	<ImageView
+        android:id="@+id/iv_right_0810"
+        android:contentDescription="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/right"
+        android:layout_marginRight="16dp" />
+</LinearLayout>

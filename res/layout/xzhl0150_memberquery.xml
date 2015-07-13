@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_topbar_0150"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <include layout="@layout/xzhl0150_topbar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#e6e6e6" >
+
+        <EditText
+            android:id="@+id/ed_search_0150"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_searchet"
+            android:hint="@string/huiyuanmdianhua"
+            android:textColorHint="#e6e6e6"
+            android:textSize="14sp" 
+            android:singleLine="true"
+            />
+
+        <Button
+            android:id="@+id/btn_search_0150"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/ed_search_0150"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/search"
+            android:paddingTop="6dp" >
+
+            <requestFocus />
+        </Button>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/xuhao"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="6"
+            android:gravity="center_horizontal|left"
+            android:text="@string/xzhl0620_membername"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="9"
+            android:gravity="center_horizontal|left"
+            android:text="@string/dianhuahaoma"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/sp_assistantRole_Spinner_0150"
+            android:layout_width="10dp"
+            android:layout_height="36dp"
+            android:layout_weight="9"
+            android:gravity="center_horizontal|left"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fengexian"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tv_nodata_0150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/nodatas"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/pb_loading_0150"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:visibility="gone" />
+
+    <com.fbse.recommentmobilesystem.common.view.XListView
+        android:id="@+id/lv_huiyuanliebiao_0150"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp" />
+
+    <ListView
+        android:id="@+id/lv_delliebiao_0510"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:visibility="gone" >
+    </ListView>
+
+</LinearLayout>
